@@ -111,7 +111,6 @@ int main() {
             // control2 = (i&4 >> 2);
             // control1 = (i&2 >> 1);
             // control0 = (i&1);
-            
             if (i == 0){
                 control3 = 0;
                 control2 = 0;

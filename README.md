@@ -1,7 +1,15 @@
 LED-Coffee-table
 ================
 This project will create a 2 dimensional LED board that can track and display patterns of hand motions
-over the board within a certain proximity.
+over the board within a certain proximity. The mbed development board receives signals from the IR receivers, stores it into an internal representation of the surface, then uses a concurrently running thread to update the NeoPixels appropriately. 
+
+Uses:  
+  a FRDM-KL25Z platform
+  4 CD74HC4067 multiplexers (extendable)
+  7 NeoPixel light strips (extendable)
+  7x8 array of TSOP 32823 38 kHz IR Receivers (extendable)
+  6x7 array of IR-204 940nm IR Emitters (extendable)
+  A lot of wires
 
 Schedule
 • October 21: Project charter (this document)
